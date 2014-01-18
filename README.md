@@ -13,7 +13,7 @@ npm install elapse
 ## Usage
 
 ```
-var Elapse = require('elpase'),
+var Elapse = require('elapse'),
 		elapse = new Elapse()
 
 elapse.time('LabelName');
