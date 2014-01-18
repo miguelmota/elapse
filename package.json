@@ -1,0 +1,30 @@
+{
+  "name": "elapse",
+  "version": "0.1.0",
+  "description": "Simple timer to track how long an operation takes.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/elapse"
+  },
+  "keywords": [
+    "elapse",
+    "timer",
+    "operation",
+    "track"
+  ],
+  "author": "miguelmota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/elapse/issues"
+  },
+  "dependencies": {
+    "request": "~2.33.0"
+  }
+}
