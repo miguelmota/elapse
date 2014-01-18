@@ -13,7 +13,7 @@ npm install elapse
 ## Usage
 
 ```
-var Elapse = require('../index'),
+var Elapse = require('elpase'),
 		elapse = new Elapse()
 
 elapse.time('LabelName');
@@ -25,7 +25,7 @@ elapse.timeEnd('LabelName');
 Debug option set to true (default) outputs to stdout
 
 ```
-var Elapse = require('../index'),
+var Elapse = require('elapse'),
 		elapse = new Elapse({debug: true});
 
 elapse.time('AsyncOperation');
@@ -40,7 +40,7 @@ setTimeout(function() {
 Or you can store the result in a variable
 
 ```
-var Elapse = require('../index'),
+var Elapse = require('elapse'),
 		elapse = new Elapse({debug: false});
 
 elapse.time('AsyncOperation');
