@@ -53,6 +53,8 @@ setTimeout(function() {
 
 ## Test
 
+Tests created using [Jasmine](http://pivotal.github.io/jasmine/)
+
 ```
 npm test
 ```
