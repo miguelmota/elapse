@@ -4,7 +4,7 @@ Simple timer to track how long an operation takes.
 
 ## Install
 
-Available via NPM
+Available via [npm](https://npmjs.org/package/elapse)
 
 ```
 npm install elapse
