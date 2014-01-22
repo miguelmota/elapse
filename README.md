@@ -1,5 +1,7 @@
 # Elapse v0.1.0
 
+[![Dependency Status](https://gemnasium.com/miguelmota/elapse.png)](https://gemnasium.com/miguelmota/elapse)
+
 Simple timer to track how long an operation takes.
 
 ## Install
