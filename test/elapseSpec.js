@@ -1,9 +1,9 @@
 var request = require('request');
-var Elapse = require('../index');
-var elapse = new Elapse({debug: true});
 
 describe('Elapse', function() {
+
 	it('should respond with a time', function(done) {
+		var elapse = require('../index');
 		elapse.time('Test');
 		request('http://www.example.com/', function(err, res, body) {
 			var elapsed = elapse.timeEnd('Test');
@@ -11,7 +11,9 @@ describe('Elapse', function() {
 			done();
 		});
 	});
-	it('should equal close to 1500ms', function(done) {
+
+	xit('should equal close to 1500ms', function(done) {
+		var elapse = require('../index');
 		elapse.time('Test');
 		var t = setTimeout(function() {
 			var elapsed = elapse.timeEnd('Test');
@@ -20,4 +22,18 @@ describe('Elapse', function() {
 			done();
 		}, 1500);
 	});
+
+	xit('should verify instance has time property', function(done) {
+		var elapse = require('../index');
+		elapse.configure({
+			debug: false
+		});
+
+		elapse.time('Test');
+		elapse.timeEnd('Test');
+
+		expect((Object.getPrototypeOf(elapse)).hasOwnProperty('time')).toBeTruthy();
+		done();
+	});
+
 });
