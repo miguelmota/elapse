@@ -1,6 +1,6 @@
 # Elapse v0.1.0
 
-[![Dependency Status](https://gemnasium.com/miguelmota/elapse.png)](https://gemnasium.com/miguelmota/elapse)
+[![Build Status](https://travis-ci.org/miguelmota/elapse.png?branch=master)](https://travis-ci.org/miguelmota/elapse) [![NPM version](https://badge.fury.io/js/elapse.png)](http://badge.fury.io/js/elapse) [![Dependency Status](https://gemnasium.com/miguelmota/elapse.png)](https://gemnasium.com/miguelmota/elapse)
 
 Simple timer to track how long an operation takes.
 
