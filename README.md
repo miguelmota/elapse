@@ -60,7 +60,7 @@ setTimeout(function() {
 
 ## Test
 
-Tests created using [Jasmine](http://pivotal.github.io/jasmine/)
+Tests created using [Jasmine](https://jasmine.github.io/)
 
 ```
 npm test
